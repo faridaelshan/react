@@ -1,0 +1,54 @@
+.card{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid gold;
+    padding: 10px;
+    border-radius: 20px;
+    h5{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+    }
+    img{
+        height: 300px;
+    }
+    button{
+        width: 100px;
+        height: 35px;
+        background-color: transparent;
+        border-radius: 20px;
+        border-color: forestgreen;
+    }
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    .min{
+        width: 35px;
+        height: 35px;
+        background-color: gold;
+        border-radius: 20px;
+        border-color: rgb(255, 174, 0);
+    }
+    span{display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(186, 228, 34);
+    }
+    .pls{
+        width: 35px;
+        height: 35px;
+        background-color: forestgreen;
+        border-radius: 20px;
+        border-color: rgb(102, 255, 0); 
+    }
+}

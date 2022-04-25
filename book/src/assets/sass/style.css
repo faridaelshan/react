@@ -1,0 +1,85 @@
+.card {
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid gold;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card h5 {
+  text-align: center;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.card img {
+  height: 300px;
+}
+
+.card button {
+  width: 100px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: forestgreen;
+}
+
+.counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 120px;
+}
+
+.counter .min {
+  width: 35px;
+  height: 35px;
+  background-color: gold;
+  border-radius: 20px;
+  border-color: #ffae00;
+}
+
+.counter span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: #bae422;
+}
+
+.counter .pls {
+  width: 35px;
+  height: 35px;
+  background-color: forestgreen;
+  border-radius: 20px;
+  border-color: #66ff00;
+}
+/*# sourceMappingURL=style.css.map */
