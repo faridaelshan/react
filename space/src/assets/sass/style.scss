@@ -1,0 +1,332 @@
+.bg{
+    background: url(../img/bg1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navbar{
+    .container-fluid{
+        width: 90%;
+        .navbar-brand{
+            .blacklogo{
+                color: red;
+                font-weight: 600;
+            }
+            .redlogo{
+                color: black;
+                font-weight: 600;
+            }
+        }
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    margin-right: 2rem;
+                    .red{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
+.getstart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .startmain{
+        margin-top: 50px;
+        width: 80%;
+        .starttext{
+            margin-top: 20px;
+           h1{
+               width: 50px;
+               font-weight: 700;
+               text-transform: uppercase;
+           }
+           p{
+               font-size: 22px;
+           }
+           button{
+               color: black;
+               border-radius: 0;
+           }
+        }
+        .startimg{
+            img{
+                width: 600px;
+                height: 400px;
+            }
+        }   
+    }
+}
+.weare{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    .centertext{
+        p{
+            color: red;
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+            font-size: 36px;
+        }
+    }
+    .wearebtm{
+        width: 80%;
+        .wearetext{
+            .card{
+                background-color: transparent;
+                display: flex;
+                flex-direction: row;
+                padding: 10px;
+                margin-top: 5px;
+                border: none;
+                .weimg{
+                    margin-right: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        width: 70px;
+                        height: 80px;
+                    }
+                }
+                .wetext{
+                    margin-left: 10px;
+                    font-size: small;
+                    width: 350px;
+                }
+            }
+            
+        }
+        .weareimg{ 
+            position: relative;
+            .img1{
+                width: 450px;
+                height: 300px;
+                margin-top: 150px;
+                margin-left: 30px;
+            }
+            .img2{
+                position: absolute;
+                top: 340px;
+                left: 0;
+                z-index: -1;
+                
+            }
+            .img3{
+                position: absolute;
+                top: 100px;
+                right: 0;
+                z-index: -1;
+            }
+            
+            
+        }
+    }
+}  
+.consulting{
+    .centertext{
+        p{
+            color: red;
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+            font-size: 36px;
+        }
+    } 
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: url(../img/bg11.png);
+        background-size: 100vw 310px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        .businesscard{
+            width: 260px;
+            height: 470px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            .businessimg{
+                img{
+                    width: 260px;
+                    height: 200px;
+                }
+            }
+            .cardbottom{
+                border: 2px solid rgba(255, 255, 255, 0.644);
+                width: 260px;
+                height: 180px;
+                padding: 10px;
+                color: white;
+            } 
+        }
+    }
+    
+}
+.technology{
+    background: url(../img/bg22.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+    .centertext{
+        padding-top: 100px;
+        p{
+            color: red;
+            text-align: center;
+        }
+        h4{
+            color: white;
+            text-align: center;
+            font-size: 36px;
+        }
+    } 
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 80px;
+        .technologycard{
+            width: 200px;
+            height: 440px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 2px solid rgba(255, 255, 255, 0.644);
+            .businessimg{
+                img{
+                    width: 260px;
+                    height: 200px;
+                }
+            }
+            .cardbottom{
+                width: 260px;
+                height: 180px;
+                padding: 9px;
+                color: white;
+            } 
+        }
+    }
+    
+}
+.community{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background: url(../img/bg2.png);
+    .centertext{
+        p{
+            color: red;
+            text-align: center;
+        }
+        .centerh0{
+            color: white;
+            text-align: center;
+            font-size: 36px;
+        }
+        .centerh{
+            color: rgba(255, 255, 255, 0.863);
+            text-align: center;
+            font-size: 36px;
+        }
+    } 
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid red;
+    h1{
+        padding-top: 5%;
+        width: 40%;
+        height: 140px;
+        text-align: center;
+        ;
+    }
+    p{
+        width: 16%;
+        border-bottom: 3px solid red
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;;
+        width: 56%;
+        .size{
+            width: 100%;
+            border-top: none;
+                border-left: none;
+                border-right: none;
+        }
+        .nameinput{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                margin: 20px 0 20px 0;
+                width: 48%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+        }
+        .contact{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                margin: 20px 0 20px 0;
+                width: 48%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+        }
+        textarea{
+            border-top: none;
+                border-left: none;
+                border-right: none;
+        }
+        button{
+            margin: 50px;
+            border-radius: 0;
+            background-color: red;
+            color: white;
+            width: 100px;
+        }
+    }
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    .d-flex{
+        p{
+            width: 85px;
+        }
+        button{
+            border-radius: 30%;
+            background-color: red;
+            color: white;
+            margin-right: 10px;
+            border: none;
+            width: 30px;
+            height: 30px;
+        }
+    } 
+}
