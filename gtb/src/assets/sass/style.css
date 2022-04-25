@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #161b22;
+  height: 8vh;
+}
+
+
+
+.container-fluid .navicon i {
+  margin-right: 10px;
+  color: white;
+  font-size: 32px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.row .col-3 {
+  background-color: #0d1117;
+  border-right: solid 1px rgba(255, 255, 255, 0.171);
+  height: 92vh;
+}
+
+.row .col-9 {
+  background-color: #010409;
+}
+/*# sourceMappingURL=style.css.map */
