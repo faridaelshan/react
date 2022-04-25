@@ -1,0 +1,124 @@
+.carddiv {
+  background-color: white;
+}
+
+.carddiv .card-text {
+  height: 30px;
+}
+
+.carddiv img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.paginate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.paginate .pages {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid #0073df;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.paginate .pages .pagelink {
+  color: #0082ec;
+  text-decoration: none;
+}
+
+.paginate .prepage {
+  border: 2px solid #0073df;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.paginate .prepage .prepagelink {
+  color: #0082ec;
+  text-decoration: none;
+}
+
+.paginate .nextpage {
+  border: 2px solid #0073df;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.paginate .nextpage .nextpagelink {
+  color: #0082ec;
+  text-decoration: none;
+}
+
+.paginate .activepage {
+  background-color: rgba(0, 171, 223, 0.575);
+  border-color: #00abdf;
+}
+
+.paginate .activepage .activepagelink {
+  color: #066c9b;
+}
+
+.nav {
+  padding-top: 17px;
+  padding-bottom: 16px;
+  background-color: #fa4f26;
+}
+
+.nav .lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30px;
+}
+
+.nav .lines .line {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+
+.nav .lines .dropdown-toggle {
+  background-color: transparent;
+}
+
+.nav .input-group input {
+  width: 400px;
+  border: none;
+}
+
+.nav .input-group .btnbg {
+  width: 50px;
+  margin: 3px;
+  border-radius: 2px;
+  border: none;
+  background-color: #fa4f26;
+}
+
+.nav .cartbtn {
+  width: 30px;
+}
+
+.nav .number {
+  color: #fa4f26;
+}
+/*# sourceMappingURL=style.css.map */

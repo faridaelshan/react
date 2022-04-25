@@ -1,0 +1,93 @@
+.carddiv{
+    background-color: white;
+    .card-text{
+        height: 30px;
+    }
+    img{
+        align-self: center;
+    }
+}
+.paginate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    .pages{
+        margin-left:10px ;
+        margin-right: 10px;
+        border: 2px solid rgb(0, 115, 223);
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        .pagelink{
+            color: rgb(0, 130, 236);
+            text-decoration: none;
+        }
+    }
+    .prepage{
+        border: 2px solid rgb(0, 115, 223);
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        .prepagelink{
+            color: rgb(0, 130, 236);
+            text-decoration: none;
+        }
+    }
+    .nextpage{
+        border: 2px solid rgb(0, 115, 223);
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+       .nextpagelink{
+        color: rgb(0, 130, 236);
+           text-decoration: none;
+       }
+    }
+    .activepage{
+        background-color: rgba(0, 171, 223, 0.575);
+        border-color: rgb(0, 171, 223);
+        .activepagelink{
+            color: rgb(6, 108, 155);
+        }
+    }
+}
+.nav{
+    padding-top: 17px;
+    padding-bottom: 16px;
+    background-color:rgb(250, 79, 38);
+    .lines{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        .line{
+            width: 30px;
+            height: 3px;
+            background-color: white;
+            margin-top: 7px;
+            border-radius: 5px;
+        }
+        .dropdown-toggle{
+            background-color: transparent;
+        }
+    }
+    .input-group{
+        input{
+            width: 400px;
+            border: none;
+        }
+        .btnbg{
+            width: 50px;
+            margin: 3px;
+            border-radius: 2px;
+            border: none;
+            background-color: rgb(250, 79, 38);
+        }
+    }
+    .cartbtn{
+        width: 30px;
+    }
+    .number{
+        color: rgb(250, 79, 38);
+    }
+}
