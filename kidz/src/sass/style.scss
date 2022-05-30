@@ -1,0 +1,166 @@
+.blogpostpage{
+    .col-8{
+        overflow-y: scroll;
+        height: 565px;
+        .posttext{
+            img{
+                float: left;
+                width: 350px;
+            }
+        }
+       .posts{
+           .nextpost{
+               button{
+                 font-weight: 800;
+               }
+           }
+           h6{
+            font-weight: 800;
+           }
+           .row{
+               .col-3{
+                   .card{
+                       width: 14rem;
+                       border: none;
+                   }
+               }
+           }
+       }
+    }::-webkit-scrollbar{
+            background: transparent;
+        }
+}
+
+.contact{
+    h1{
+        font-weight: 900;
+    }
+    .row{
+        .mb-3{
+            label{
+               font-weight: 700;
+            }
+        }
+    }
+}
+
+.blogitem{
+    width: 350px;
+    .blog{
+        h1{
+          font-weight: 700;
+        }
+    }
+}
+
+.blogpostitem{
+    height: 80px;
+    .row{
+        .col-md-3{
+            img{
+                width: 80px;
+            }
+        }
+    }
+}
+
+.login{
+    .formbutton{
+        button{
+           font-weight: 700; 
+           span{
+               font-weight: 700;
+           }
+           a{
+               text-decoration: none;
+           } 
+        }
+    }
+    .user{
+        width: 400px;
+        .remember{
+            button{
+                width: 250px;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.lost{
+    form{
+        width: 400px;
+        input{
+            width: 350px;
+        }
+    }
+}
+
+.notfound{
+   .flex-column{
+       width: 400px;
+       .page{
+           font-weight: 900;
+           font-size: 50px;
+       }
+       .text-info{
+        font-weight: 900;
+        font-size: 100px;
+       }
+       .first{
+           font-weight: 700;
+           font-size: 50px;
+       }
+       .text-center{
+           font-weight: 700;
+           font-size: 20px;
+       }
+   } 
+}
+
+.register{
+    .d-flex{
+        button{
+            font-weight: 700;
+            a{
+                text-decoration: none;
+            }
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+    .formregister{
+        width: 400px;
+    }
+}
+
+nav{
+    .container-fluid{
+        .collapse{
+            form{
+                button{
+                    a{
+                        color: black;
+                        text-decoration: none;
+                        h5{
+                            svg{font-size: 20;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: rgb(247, 247, 247);
+}
+.pages{
+    list-style: none;
+    .pagelink{
+    color: transparent;
+}
+}
